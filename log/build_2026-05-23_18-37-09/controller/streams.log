@@ -1,0 +1,27 @@
+[2.279s] Invoking command in '/home/project/ASV/ASV_new/src/controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(vir_env_main) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/project/ASV/ASV_new/build/controller/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/controller/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vir_env_main) /home/project/ASV/vir_env_main/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controller build --build-base /home/project/ASV/ASV_new/build/controller/build install --record /home/project/ASV/ASV_new/build/controller/install.log --single-version-externally-managed install_data
+[2.784s] running egg_info
+[2.803s] writing ../../build/controller/controller.egg-info/PKG-INFO
+[2.804s] writing dependency_links to ../../build/controller/controller.egg-info/dependency_links.txt
+[2.804s] writing entry points to ../../build/controller/controller.egg-info/entry_points.txt
+[2.804s] writing requirements to ../../build/controller/controller.egg-info/requires.txt
+[2.804s] writing top-level names to ../../build/controller/controller.egg-info/top_level.txt
+[2.855s] reading manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[2.857s] writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[2.858s] running build
+[2.858s] running build_py
+[2.858s] copying controller/pid_controller.py -> /home/project/ASV/ASV_new/build/controller/build/lib/controller
+[2.858s] copying controller/__init__.py -> /home/project/ASV/ASV_new/build/controller/build/lib/controller
+[2.858s] running install
+[2.869s] running install_lib
+[2.888s] copying /home/project/ASV/ASV_new/build/controller/build/lib/controller/pid_controller.py -> /home/project/ASV/ASV_new/install/controller/lib/python3.12/site-packages/controller
+[2.889s] byte-compiling /home/project/ASV/ASV_new/install/controller/lib/python3.12/site-packages/controller/pid_controller.py to pid_controller.cpython-312.pyc
+[2.894s] running install_data
+[2.895s] copying resource/controller -> /home/project/ASV/ASV_new/install/controller/share/ament_index/resource_index/packages
+[2.896s] copying package.xml -> /home/project/ASV/ASV_new/install/controller/share/controller
+[2.896s] running install_egg_info
+[2.918s] removing '/home/project/ASV/ASV_new/install/controller/lib/python3.12/site-packages/controller-0.0.0-py3.12.egg-info' (and everything under it)
+[2.920s] Copying ../../build/controller/controller.egg-info to /home/project/ASV/ASV_new/install/controller/lib/python3.12/site-packages/controller-0.0.0-py3.12.egg-info
+[2.920s] running install_scripts
+[2.970s] Installing pid_controller script to /home/project/ASV/ASV_new/install/controller/lib/controller
+[2.970s] writing list of installed files to '/home/project/ASV/ASV_new/build/controller/install.log'
+[3.052s] Invoked command in '/home/project/ASV/ASV_new/src/controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(vir_env_main) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/project/ASV/ASV_new/build/controller/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/controller/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vir_env_main) /home/project/ASV/vir_env_main/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controller build --build-base /home/project/ASV/ASV_new/build/controller/build install --record /home/project/ASV/ASV_new/build/controller/install.log --single-version-externally-managed install_data

@@ -1,0 +1,29 @@
+[1.304s] Invoking command in '/home/project/ASV/ASV_new/src/thruster': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(vir_env_main) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/project/ASV/ASV_new/build/thruster/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/thruster/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vir_env_main) /home/project/ASV/vir_env_main/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/thruster build --build-base /home/project/ASV/ASV_new/build/thruster/build install --record /home/project/ASV/ASV_new/build/thruster/install.log --single-version-externally-managed install_data
+[1.550s] /home/project/ASV/vir_env_main/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.551s]   warnings.warn(msg)
+[1.675s] running egg_info
+[1.698s] writing ../../build/thruster/thruster.egg-info/PKG-INFO
+[1.699s] writing dependency_links to ../../build/thruster/thruster.egg-info/dependency_links.txt
+[1.700s] writing entry points to ../../build/thruster/thruster.egg-info/entry_points.txt
+[1.701s] writing requirements to ../../build/thruster/thruster.egg-info/requires.txt
+[1.701s] writing top-level names to ../../build/thruster/thruster.egg-info/top_level.txt
+[1.745s] reading manifest file '../../build/thruster/thruster.egg-info/SOURCES.txt'
+[1.747s] writing manifest file '../../build/thruster/thruster.egg-info/SOURCES.txt'
+[1.747s] running build
+[1.747s] running build_py
+[1.747s] copying thruster/__init__.py -> /home/project/ASV/ASV_new/build/thruster/build/lib/thruster
+[1.748s] copying thruster/thrust_teleop_publisher.py -> /home/project/ASV/ASV_new/build/thruster/build/lib/thruster
+[1.748s] copying thruster/thrust_subscriber.py -> /home/project/ASV/ASV_new/build/thruster/build/lib/thruster
+[1.749s] running install
+[1.756s] running install_lib
+[1.778s] running install_data
+[1.778s] copying resource/thruster -> /home/project/ASV/ASV_new/install/thruster/share/ament_index/resource_index/packages
+[1.778s] copying package.xml -> /home/project/ASV/ASV_new/install/thruster/share/thruster
+[1.779s] running install_egg_info
+[1.802s] removing '/home/project/ASV/ASV_new/install/thruster/lib/python3.12/site-packages/thruster-0.0.0-py3.12.egg-info' (and everything under it)
+[1.803s] Copying ../../build/thruster/thruster.egg-info to /home/project/ASV/ASV_new/install/thruster/lib/python3.12/site-packages/thruster-0.0.0-py3.12.egg-info
+[1.804s] running install_scripts
+[1.849s] Installing thruster_sub script to /home/project/ASV/ASV_new/install/thruster/lib/thruster
+[1.849s] Installing thruster_teleop script to /home/project/ASV/ASV_new/install/thruster/lib/thruster
+[1.851s] writing list of installed files to '/home/project/ASV/ASV_new/build/thruster/install.log'
+[1.951s] Invoked command in '/home/project/ASV/ASV_new/src/thruster' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(vir_env_main) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/project/ASV/ASV_new/build/thruster/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/thruster/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vir_env_main) /home/project/ASV/vir_env_main/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/thruster build --build-base /home/project/ASV/ASV_new/build/thruster/build install --record /home/project/ASV/ASV_new/build/thruster/install.log --single-version-externally-managed install_data

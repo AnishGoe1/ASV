@@ -1,0 +1,29 @@
+[0.000000] (-) TimerEvent: {}
+[0.000381] (controller) JobQueued: {'identifier': 'controller', 'dependencies': OrderedDict()}
+[0.000767] (gps) JobQueued: {'identifier': 'gps', 'dependencies': OrderedDict()}
+[0.000977] (imu) JobQueued: {'identifier': 'imu', 'dependencies': OrderedDict()}
+[0.001021] (sensors) JobQueued: {'identifier': 'sensors', 'dependencies': OrderedDict()}
+[0.001046] (thruster) JobQueued: {'identifier': 'thruster', 'dependencies': OrderedDict()}
+[0.001069] (controller) JobStarted: {'identifier': 'controller'}
+[0.018575] (gps) JobStarted: {'identifier': 'gps'}
+[0.030745] (imu) JobStarted: {'identifier': 'imu'}
+[0.046411] (sensors) JobStarted: {'identifier': 'sensors'}
+[0.099685] (-) TimerEvent: {}
+[0.200067] (-) TimerEvent: {}
+[0.300423] (-) TimerEvent: {}
+[0.400810] (-) TimerEvent: {}
+[0.430236] (controller) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n                ^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n           ^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 249, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n                                             ^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 296, in _get_setup_information\n    result = subprocess.run(\n             ^^^^^^^^^^^^^^^\n  File "/usr/lib/python3.12/subprocess.py", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/home/project/ASV/vir_env_main/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[0.432241] (controller) JobEnded: {'identifier': 'controller', 'rc': 1}
+[0.506227] (-) TimerEvent: {}
+[0.609067] (-) TimerEvent: {}
+[0.709557] (-) TimerEvent: {}
+[0.810021] (-) TimerEvent: {}
+[0.910388] (-) TimerEvent: {}
+[1.010814] (-) TimerEvent: {}
+[1.111161] (-) TimerEvent: {}
+[1.211507] (-) TimerEvent: {}
+[1.280004] (gps) JobEnded: {'identifier': 'gps', 'rc': 'SIGINT'}
+[1.281363] (sensors) JobEnded: {'identifier': 'sensors', 'rc': 'SIGINT'}
+[1.282150] (imu) JobEnded: {'identifier': 'imu', 'rc': 'SIGINT'}
+[1.292091] (thruster) JobSkipped: {'identifier': 'thruster'}
+[1.292179] (-) EventReactorShutdown: {}

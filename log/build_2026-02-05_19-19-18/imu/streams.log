@@ -1,0 +1,29 @@
+[2.199s] Invoking command in '/home/project/ASV/ASV_new/src/imu': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(vir_env_main) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/project/ASV/ASV_new/build/imu/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/imu/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vir_env_main) /home/project/ASV/vir_env_main/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu build --build-base /home/project/ASV/ASV_new/build/imu/build install --record /home/project/ASV/ASV_new/build/imu/install.log --single-version-externally-managed install_data
+[2.650s] /home/project/ASV/vir_env_main/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.651s]   warnings.warn(msg)
+[2.797s] running egg_info
+[2.825s] writing ../../build/imu/imu.egg-info/PKG-INFO
+[2.825s] writing dependency_links to ../../build/imu/imu.egg-info/dependency_links.txt
+[2.826s] writing entry points to ../../build/imu/imu.egg-info/entry_points.txt
+[2.827s] writing requirements to ../../build/imu/imu.egg-info/requires.txt
+[2.828s] writing top-level names to ../../build/imu/imu.egg-info/top_level.txt
+[2.881s] reading manifest file '../../build/imu/imu.egg-info/SOURCES.txt'
+[2.883s] writing manifest file '../../build/imu/imu.egg-info/SOURCES.txt'
+[2.883s] running build
+[2.885s] running build_py
+[2.885s] copying imu/__init__.py -> /home/project/ASV/ASV_new/build/imu/build/lib/imu
+[2.885s] copying imu/imu_logger.py -> /home/project/ASV/ASV_new/build/imu/build/lib/imu
+[2.886s] copying imu/imu_publisher.py -> /home/project/ASV/ASV_new/build/imu/build/lib/imu
+[2.886s] running install
+[2.895s] running install_lib
+[2.942s] running install_data
+[2.942s] copying resource/imu -> /home/project/ASV/ASV_new/install/imu/share/ament_index/resource_index/packages
+[2.943s] copying package.xml -> /home/project/ASV/ASV_new/install/imu/share/imu
+[2.943s] running install_egg_info
+[2.973s] removing '/home/project/ASV/ASV_new/install/imu/lib/python3.12/site-packages/imu-0.0.0-py3.12.egg-info' (and everything under it)
+[2.974s] Copying ../../build/imu/imu.egg-info to /home/project/ASV/ASV_new/install/imu/lib/python3.12/site-packages/imu-0.0.0-py3.12.egg-info
+[2.975s] running install_scripts
+[3.032s] Installing imu_logger script to /home/project/ASV/ASV_new/install/imu/lib/imu
+[3.032s] Installing imu_publisher script to /home/project/ASV/ASV_new/install/imu/lib/imu
+[3.034s] writing list of installed files to '/home/project/ASV/ASV_new/build/imu/install.log'
+[3.145s] Invoked command in '/home/project/ASV/ASV_new/src/imu' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(vir_env_main) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/project/ASV/ASV_new/build/imu/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/imu/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vir_env_main) /home/project/ASV/vir_env_main/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu build --build-base /home/project/ASV/ASV_new/build/imu/build install --record /home/project/ASV/ASV_new/build/imu/install.log --single-version-externally-managed install_data

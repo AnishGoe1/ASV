@@ -1,0 +1,30 @@
+[2.545s] Invoking command in '/home/project/ASV/ASV_new/src/controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(vir_env_main) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/project/ASV/ASV_new/build/controller/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/controller/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vir_env_main) /home/project/ASV/vir_env_main/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controller build --build-base /home/project/ASV/ASV_new/build/controller/build install --record /home/project/ASV/ASV_new/build/controller/install.log --single-version-externally-managed install_data
+[2.858s] /home/project/ASV/vir_env_main/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.858s]   warnings.warn(msg)
+[2.998s] running egg_info
+[3.016s] creating ../../build/controller/controller.egg-info
+[3.018s] writing ../../build/controller/controller.egg-info/PKG-INFO
+[3.018s] writing dependency_links to ../../build/controller/controller.egg-info/dependency_links.txt
+[3.018s] writing requirements to ../../build/controller/controller.egg-info/requires.txt
+[3.018s] writing top-level names to ../../build/controller/controller.egg-info/top_level.txt
+[3.019s] writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[3.069s] reading manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[3.070s] writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[3.070s] running build
+[3.070s] running build_py
+[3.070s] creating /home/project/ASV/ASV_new/build/controller/build/lib/controller
+[3.070s] copying controller/__init__.py -> /home/project/ASV/ASV_new/build/controller/build/lib/controller
+[3.070s] running install
+[3.079s] running install_lib
+[3.104s] creating /home/project/ASV/ASV_new/install/controller/lib/python3.12/site-packages/controller
+[3.106s] copying /home/project/ASV/ASV_new/build/controller/build/lib/controller/__init__.py -> /home/project/ASV/ASV_new/install/controller/lib/python3.12/site-packages/controller
+[3.106s] byte-compiling /home/project/ASV/ASV_new/install/controller/lib/python3.12/site-packages/controller/__init__.py to __init__.cpython-312.pyc
+[3.107s] running install_data
+[3.108s] creating /home/project/ASV/ASV_new/install/controller/share/ament_index/resource_index/packages
+[3.108s] copying resource/controller -> /home/project/ASV/ASV_new/install/controller/share/ament_index/resource_index/packages
+[3.109s] copying package.xml -> /home/project/ASV/ASV_new/install/controller/share/controller
+[3.110s] running install_egg_info
+[3.133s] Copying ../../build/controller/controller.egg-info to /home/project/ASV/ASV_new/install/controller/lib/python3.12/site-packages/controller-0.0.0-py3.12.egg-info
+[3.135s] running install_scripts
+[3.187s] writing list of installed files to '/home/project/ASV/ASV_new/build/controller/install.log'
+[3.354s] Invoked command in '/home/project/ASV/ASV_new/src/controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(vir_env_main) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/project/ASV/ASV_new/build/controller/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/controller/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vir_env_main) /home/project/ASV/vir_env_main/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controller build --build-base /home/project/ASV/ASV_new/build/controller/build install --record /home/project/ASV/ASV_new/build/controller/install.log --single-version-externally-managed install_data

@@ -1,0 +1,26 @@
+[10.799s] Invoking command in '/home/project/ASV/ASV_new/src/sensors': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(vir_env_main) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/project/ASV/ASV_new/build/sensors/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/sensors/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vir_env_main) /home/project/ASV/vir_env_main/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensors build --build-base /home/project/ASV/ASV_new/build/sensors/build install --record /home/project/ASV/ASV_new/build/sensors/install.log --single-version-externally-managed install_data
+[16.828s] /home/project/ASV/vir_env_main/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[16.829s]   warnings.warn(msg)
+[16.830s] running egg_info
+[16.831s] writing ../../build/sensors/sensors.egg-info/PKG-INFO
+[16.984s] writing dependency_links to ../../build/sensors/sensors.egg-info/dependency_links.txt
+[16.985s] writing entry points to ../../build/sensors/sensors.egg-info/entry_points.txt
+[16.986s] writing requirements to ../../build/sensors/sensors.egg-info/requires.txt
+[16.989s] writing top-level names to ../../build/sensors/sensors.egg-info/top_level.txt
+[16.990s] reading manifest file '../../build/sensors/sensors.egg-info/SOURCES.txt'
+[17.010s] writing manifest file '../../build/sensors/sensors.egg-info/SOURCES.txt'
+[17.053s] running build
+[17.054s] running build_py
+[17.054s] copying sensors/__init__.py -> /home/project/ASV/ASV_new/build/sensors/build/lib/sensors
+[17.054s] running install
+[17.055s] running install_lib
+[17.101s] running install_data
+[17.101s] copying resource/sensors -> /home/project/ASV/ASV_new/install/sensors/share/ament_index/resource_index/packages
+[17.101s] copying package.xml -> /home/project/ASV/ASV_new/install/sensors/share/sensors
+[17.101s] running install_egg_info
+[17.124s] removing '/home/project/ASV/ASV_new/install/sensors/lib/python3.12/site-packages/sensors-0.0.0-py3.12.egg-info' (and everything under it)
+[17.126s] Copying ../../build/sensors/sensors.egg-info to /home/project/ASV/ASV_new/install/sensors/lib/python3.12/site-packages/sensors-0.0.0-py3.12.egg-info
+[17.138s] running install_scripts
+[17.198s] Installing batt_pub script to /home/project/ASV/ASV_new/install/sensors/lib/sensors
+[17.199s] writing list of installed files to '/home/project/ASV/ASV_new/build/sensors/install.log'
+[17.296s] Invoked command in '/home/project/ASV/ASV_new/src/sensors' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(vir_env_main) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/project/ASV/ASV_new/build/sensors/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/sensors/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vir_env_main) /home/project/ASV/vir_env_main/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensors build --build-base /home/project/ASV/ASV_new/build/sensors/build install --record /home/project/ASV/ASV_new/build/sensors/install.log --single-version-externally-managed install_data

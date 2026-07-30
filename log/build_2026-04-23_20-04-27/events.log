@@ -1,0 +1,196 @@
+[0.000000] (-) TimerEvent: {}
+[0.000368] (gps) JobQueued: {'identifier': 'gps', 'dependencies': OrderedDict()}
+[0.000427] (imu) JobQueued: {'identifier': 'imu', 'dependencies': OrderedDict()}
+[0.000451] (sensors) JobQueued: {'identifier': 'sensors', 'dependencies': OrderedDict()}
+[0.000470] (thruster) JobQueued: {'identifier': 'thruster', 'dependencies': OrderedDict()}
+[0.001444] (gps) JobStarted: {'identifier': 'gps'}
+[0.036420] (imu) JobStarted: {'identifier': 'imu'}
+[0.052310] (sensors) JobStarted: {'identifier': 'sensors'}
+[0.073568] (thruster) JobStarted: {'identifier': 'thruster'}
+[0.101705] (-) TimerEvent: {}
+[0.202124] (-) TimerEvent: {}
+[0.302464] (-) TimerEvent: {}
+[0.402819] (-) TimerEvent: {}
+[0.503167] (-) TimerEvent: {}
+[0.603555] (-) TimerEvent: {}
+[0.703912] (-) TimerEvent: {}
+[0.804242] (-) TimerEvent: {}
+[0.904591] (-) TimerEvent: {}
+[1.004977] (-) TimerEvent: {}
+[1.105417] (-) TimerEvent: {}
+[1.205772] (-) TimerEvent: {}
+[1.306097] (-) TimerEvent: {}
+[1.406407] (-) TimerEvent: {}
+[1.506758] (-) TimerEvent: {}
+[1.607095] (-) TimerEvent: {}
+[1.707444] (-) TimerEvent: {}
+[1.807887] (-) TimerEvent: {}
+[1.908541] (-) TimerEvent: {}
+[2.010590] (-) TimerEvent: {}
+[2.115632] (-) TimerEvent: {}
+[2.216046] (-) TimerEvent: {}
+[2.316455] (-) TimerEvent: {}
+[2.416900] (-) TimerEvent: {}
+[2.522632] (-) TimerEvent: {}
+[2.625033] (-) TimerEvent: {}
+[2.729646] (-) TimerEvent: {}
+[2.832607] (-) TimerEvent: {}
+[2.933108] (-) TimerEvent: {}
+[3.033597] (-) TimerEvent: {}
+[3.129314] (imu) Command: {'cmd': ['/home/project/ASV/vir_env_main/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/imu', 'build', '--build-base', '/home/project/ASV/ASV_new/build/imu/build', 'install', '--record', '/home/project/ASV/ASV_new/build/imu/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/project/ASV/ASV_new/src/imu', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'project', 'SSH_AGENT_PID': '1951', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/project', 'DESKTOP_SESSION': 'xfce', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '(vir_env_main) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'COLCON_PREFIX_PATH': '/home/project/ASV/ASV_new/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'project', '_': '/home/project/ASV/vir_env_main/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'PATH': '/opt/ros/jazzy/bin:/home/project/ASV/vir_env_main/bin:/home/project/ASV/vir_env_main/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/project:@/tmp/.ICE-unix/1973,unix/project:/tmp/.ICE-unix/1973', 'XDG_MENU_PREFIX': 'xfce-', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a2df665e_f179_40ae_b1a5_cd0c1f612d2d', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':10.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'VIRTUAL_ENV_PROMPT': '(vir_env_main)', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.94', 'SSH_AUTH_SOCK': '/tmp/ssh-dSeKcHvjkyu1/agent.1790', 'AMENT_PREFIX_PATH': '/home/project/ASV/ASV_new/install/thruster:/home/project/ASV/ASV_new/install/sensors:/home/project/ASV/ASV_new/install/imu:/home/project/ASV/ASV_new/install/gps:/opt/ros/jazzy', 'UID': '1002', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'VIRTUAL_ENV': '/home/project/ASV/vir_env_main', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/project/ASV/ASV_new/build/imu', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/project/ASV/ASV_new/build/imu/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/imu/lib/python3.12/site-packages:/home/project/ASV/ASV_new/install/thruster/lib/python3.12/site-packages:/home/project/ASV/ASV_new/install/sensors/lib/python3.12/site-packages:/home/project/ASV/ASV_new/install/imu/lib/python3.12/site-packages:/home/project/ASV/ASV_new/install/gps/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.135661] (-) TimerEvent: {}
+[3.237458] (-) TimerEvent: {}
+[3.341877] (-) TimerEvent: {}
+[3.446819] (-) TimerEvent: {}
+[3.461531] (gps) Command: {'cmd': ['/home/project/ASV/vir_env_main/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/gps', 'build', '--build-base', '/home/project/ASV/ASV_new/build/gps/build', 'install', '--record', '/home/project/ASV/ASV_new/build/gps/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/project/ASV/ASV_new/src/gps', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'project', 'SSH_AGENT_PID': '1951', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/project', 'DESKTOP_SESSION': 'xfce', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '(vir_env_main) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'COLCON_PREFIX_PATH': '/home/project/ASV/ASV_new/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'project', '_': '/home/project/ASV/vir_env_main/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'PATH': '/opt/ros/jazzy/bin:/home/project/ASV/vir_env_main/bin:/home/project/ASV/vir_env_main/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/project:@/tmp/.ICE-unix/1973,unix/project:/tmp/.ICE-unix/1973', 'XDG_MENU_PREFIX': 'xfce-', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a2df665e_f179_40ae_b1a5_cd0c1f612d2d', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':10.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'VIRTUAL_ENV_PROMPT': '(vir_env_main)', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.94', 'SSH_AUTH_SOCK': '/tmp/ssh-dSeKcHvjkyu1/agent.1790', 'AMENT_PREFIX_PATH': '/home/project/ASV/ASV_new/install/thruster:/home/project/ASV/ASV_new/install/sensors:/home/project/ASV/ASV_new/install/imu:/home/project/ASV/ASV_new/install/gps:/opt/ros/jazzy', 'UID': '1002', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'VIRTUAL_ENV': '/home/project/ASV/vir_env_main', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/project/ASV/ASV_new/build/gps', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/project/ASV/ASV_new/build/gps/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/gps/lib/python3.12/site-packages:/home/project/ASV/ASV_new/install/thruster/lib/python3.12/site-packages:/home/project/ASV/ASV_new/install/sensors/lib/python3.12/site-packages:/home/project/ASV/ASV_new/install/imu/lib/python3.12/site-packages:/home/project/ASV/ASV_new/install/gps/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.548673] (-) TimerEvent: {}
+[3.649592] (-) TimerEvent: {}
+[3.703079] (sensors) Command: {'cmd': ['/home/project/ASV/vir_env_main/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/sensors', 'build', '--build-base', '/home/project/ASV/ASV_new/build/sensors/build', 'install', '--record', '/home/project/ASV/ASV_new/build/sensors/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/project/ASV/ASV_new/src/sensors', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'project', 'SSH_AGENT_PID': '1951', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/project', 'DESKTOP_SESSION': 'xfce', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '(vir_env_main) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'COLCON_PREFIX_PATH': '/home/project/ASV/ASV_new/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'project', '_': '/home/project/ASV/vir_env_main/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'PATH': '/opt/ros/jazzy/bin:/home/project/ASV/vir_env_main/bin:/home/project/ASV/vir_env_main/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/project:@/tmp/.ICE-unix/1973,unix/project:/tmp/.ICE-unix/1973', 'XDG_MENU_PREFIX': 'xfce-', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a2df665e_f179_40ae_b1a5_cd0c1f612d2d', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':10.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'VIRTUAL_ENV_PROMPT': '(vir_env_main)', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.94', 'SSH_AUTH_SOCK': '/tmp/ssh-dSeKcHvjkyu1/agent.1790', 'AMENT_PREFIX_PATH': '/home/project/ASV/ASV_new/install/thruster:/home/project/ASV/ASV_new/install/sensors:/home/project/ASV/ASV_new/install/imu:/home/project/ASV/ASV_new/install/gps:/opt/ros/jazzy', 'UID': '1002', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'VIRTUAL_ENV': '/home/project/ASV/vir_env_main', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/project/ASV/ASV_new/build/sensors', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/project/ASV/ASV_new/build/sensors/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/sensors/lib/python3.12/site-packages:/home/project/ASV/ASV_new/install/thruster/lib/python3.12/site-packages:/home/project/ASV/ASV_new/install/sensors/lib/python3.12/site-packages:/home/project/ASV/ASV_new/install/imu/lib/python3.12/site-packages:/home/project/ASV/ASV_new/install/gps/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.768649] (-) TimerEvent: {}
+[3.886761] (thruster) Command: {'cmd': ['/home/project/ASV/vir_env_main/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/thruster', 'build', '--build-base', '/home/project/ASV/ASV_new/build/thruster/build', 'install', '--record', '/home/project/ASV/ASV_new/build/thruster/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/project/ASV/ASV_new/src/thruster', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'project', 'SSH_AGENT_PID': '1951', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/project', 'DESKTOP_SESSION': 'xfce', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '(vir_env_main) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'COLCON_PREFIX_PATH': '/home/project/ASV/ASV_new/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'project', '_': '/home/project/ASV/vir_env_main/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'PATH': '/opt/ros/jazzy/bin:/home/project/ASV/vir_env_main/bin:/home/project/ASV/vir_env_main/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/project:@/tmp/.ICE-unix/1973,unix/project:/tmp/.ICE-unix/1973', 'XDG_MENU_PREFIX': 'xfce-', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a2df665e_f179_40ae_b1a5_cd0c1f612d2d', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':10.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'VIRTUAL_ENV_PROMPT': '(vir_env_main)', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.94', 'SSH_AUTH_SOCK': '/tmp/ssh-dSeKcHvjkyu1/agent.1790', 'AMENT_PREFIX_PATH': '/home/project/ASV/ASV_new/install/thruster:/home/project/ASV/ASV_new/install/sensors:/home/project/ASV/ASV_new/install/imu:/home/project/ASV/ASV_new/install/gps:/opt/ros/jazzy', 'UID': '1002', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'VIRTUAL_ENV': '/home/project/ASV/vir_env_main', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/project/ASV/ASV_new/build/thruster', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/project/ASV/ASV_new/build/thruster/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/thruster/lib/python3.12/site-packages:/home/project/ASV/ASV_new/install/thruster/lib/python3.12/site-packages:/home/project/ASV/ASV_new/install/sensors/lib/python3.12/site-packages:/home/project/ASV/ASV_new/install/imu/lib/python3.12/site-packages:/home/project/ASV/ASV_new/install/gps/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.892982] (-) TimerEvent: {}
+[3.996764] (-) TimerEvent: {}
+[4.097263] (-) TimerEvent: {}
+[4.157800] (imu) StdoutLine: {'line': b'running egg_info\n'}
+[4.260840] (-) TimerEvent: {}
+[4.276347] (imu) StdoutLine: {'line': b'writing ../../build/imu/imu.egg-info/PKG-INFO\n'}
+[4.276778] (gps) StdoutLine: {'line': b'running egg_info\n'}
+[4.292882] (gps) StdoutLine: {'line': b'writing ../../build/gps/gps.egg-info/PKG-INFO\n'}
+[4.360965] (-) TimerEvent: {}
+[4.472338] (-) TimerEvent: {}
+[4.477289] (sensors) StdoutLine: {'line': b'running egg_info\n'}
+[4.510976] (sensors) StdoutLine: {'line': b'writing ../../build/sensors/sensors.egg-info/PKG-INFO\n'}
+[4.536757] (thruster) StdoutLine: {'line': b'running egg_info\n'}
+[4.557714] (thruster) StdoutLine: {'line': b'writing ../../build/thruster/thruster.egg-info/PKG-INFO\n'}
+[4.572434] (-) TimerEvent: {}
+[4.672890] (-) TimerEvent: {}
+[4.773696] (-) TimerEvent: {}
+[4.874307] (-) TimerEvent: {}
+[4.975130] (-) TimerEvent: {}
+[5.076030] (-) TimerEvent: {}
+[5.105602] (imu) StdoutLine: {'line': b'writing dependency_links to ../../build/imu/imu.egg-info/dependency_links.txt\n'}
+[5.105920] (imu) StdoutLine: {'line': b'writing entry points to ../../build/imu/imu.egg-info/entry_points.txt\n'}
+[5.106032] (imu) StdoutLine: {'line': b'writing requirements to ../../build/imu/imu.egg-info/requires.txt\n'}
+[5.106120] (imu) StdoutLine: {'line': b'writing top-level names to ../../build/imu/imu.egg-info/top_level.txt\n'}
+[5.106208] (sensors) StdoutLine: {'line': b'writing dependency_links to ../../build/sensors/sensors.egg-info/dependency_links.txt\n'}
+[5.106317] (sensors) StdoutLine: {'line': b'writing entry points to ../../build/sensors/sensors.egg-info/entry_points.txt\n'}
+[5.106401] (sensors) StdoutLine: {'line': b'writing requirements to ../../build/sensors/sensors.egg-info/requires.txt\n'}
+[5.106484] (sensors) StdoutLine: {'line': b'writing top-level names to ../../build/sensors/sensors.egg-info/top_level.txt\n'}
+[5.106593] (thruster) StdoutLine: {'line': b'writing dependency_links to ../../build/thruster/thruster.egg-info/dependency_links.txt\n'}
+[5.106696] (thruster) StdoutLine: {'line': b'writing entry points to ../../build/thruster/thruster.egg-info/entry_points.txt\n'}
+[5.110459] (gps) StdoutLine: {'line': b'writing dependency_links to ../../build/gps/gps.egg-info/dependency_links.txt\n'}
+[5.110758] (gps) StdoutLine: {'line': b'writing entry points to ../../build/gps/gps.egg-info/entry_points.txt\n'}
+[5.110856] (gps) StdoutLine: {'line': b'writing requirements to ../../build/gps/gps.egg-info/requires.txt\n'}
+[5.110945] (gps) StdoutLine: {'line': b'writing top-level names to ../../build/gps/gps.egg-info/top_level.txt\n'}
+[5.111029] (thruster) StdoutLine: {'line': b'writing requirements to ../../build/thruster/thruster.egg-info/requires.txt\n'}
+[5.111124] (thruster) StdoutLine: {'line': b'writing top-level names to ../../build/thruster/thruster.egg-info/top_level.txt\n'}
+[5.160854] (imu) StdoutLine: {'line': b"reading manifest file '../../build/imu/imu.egg-info/SOURCES.txt'\n"}
+[5.161102] (imu) StdoutLine: {'line': b"writing manifest file '../../build/imu/imu.egg-info/SOURCES.txt'\n"}
+[5.169402] (gps) StdoutLine: {'line': b"reading manifest file '../../build/gps/gps.egg-info/SOURCES.txt'\n"}
+[5.169642] (gps) StdoutLine: {'line': b"writing manifest file '../../build/gps/gps.egg-info/SOURCES.txt'\n"}
+[5.173872] (sensors) StdoutLine: {'line': b"reading manifest file '../../build/sensors/sensors.egg-info/SOURCES.txt'\n"}
+[5.176972] (sensors) StdoutLine: {'line': b"writing manifest file '../../build/sensors/sensors.egg-info/SOURCES.txt'\n"}
+[5.177632] (-) TimerEvent: {}
+[5.200378] (thruster) StdoutLine: {'line': b"reading manifest file '../../build/thruster/thruster.egg-info/SOURCES.txt'\n"}
+[5.202644] (thruster) StdoutLine: {'line': b"writing manifest file '../../build/thruster/thruster.egg-info/SOURCES.txt'\n"}
+[5.278745] (-) TimerEvent: {}
+[5.379873] (-) TimerEvent: {}
+[5.424832] (sensors) StdoutLine: {'line': b'running build\n'}
+[5.425121] (sensors) StdoutLine: {'line': b'running build_py\n'}
+[5.425310] (sensors) StdoutLine: {'line': b'copying sensors/battery_pub.py -> /home/project/ASV/ASV_new/build/sensors/build/lib/sensors\n'}
+[5.425869] (gps) StdoutLine: {'line': b'running build\n'}
+[5.426014] (gps) StdoutLine: {'line': b'running build_py\n'}
+[5.426113] (gps) StdoutLine: {'line': b'copying gps/gps_publisher.py -> /home/project/ASV/ASV_new/build/gps/build/lib/gps\n'}
+[5.426205] (gps) StdoutLine: {'line': b'copying gps/__init__.py -> /home/project/ASV/ASV_new/build/gps/build/lib/gps\n'}
+[5.426299] (gps) StdoutLine: {'line': b'running install\n'}
+[5.427845] (sensors) StdoutLine: {'line': b'copying sensors/__init__.py -> /home/project/ASV/ASV_new/build/sensors/build/lib/sensors\n'}
+[5.428022] (thruster) StdoutLine: {'line': b'running build\n'}
+[5.428198] (thruster) StdoutLine: {'line': b'running build_py\n'}
+[5.428302] (thruster) StdoutLine: {'line': b'copying thruster/__init__.py -> /home/project/ASV/ASV_new/build/thruster/build/lib/thruster\n'}
+[5.428408] (thruster) StdoutLine: {'line': b'copying thruster/thrust_teleop_publisher.py -> /home/project/ASV/ASV_new/build/thruster/build/lib/thruster\n'}
+[5.428507] (thruster) StdoutLine: {'line': b'copying thruster/thrust_subscriber.py -> /home/project/ASV/ASV_new/build/thruster/build/lib/thruster\n'}
+[5.430820] (thruster) StdoutLine: {'line': b'running install\n'}
+[5.430911] (sensors) StdoutLine: {'line': b'running install\n'}
+[5.431017] (imu) StdoutLine: {'line': b'running build\n'}
+[5.431118] (imu) StdoutLine: {'line': b'running build_py\n'}
+[5.431198] (imu) StdoutLine: {'line': b'copying imu/__init__.py -> /home/project/ASV/ASV_new/build/imu/build/lib/imu\n'}
+[5.431278] (imu) StdoutLine: {'line': b'copying imu/imu_logger.py -> /home/project/ASV/ASV_new/build/imu/build/lib/imu\n'}
+[5.431372] (imu) StdoutLine: {'line': b'copying imu/imu_publisher.py -> /home/project/ASV/ASV_new/build/imu/build/lib/imu\n'}
+[5.431460] (imu) StdoutLine: {'line': b'running install\n'}
+[5.434586] (gps) StdoutLine: {'line': b'running install_lib\n'}
+[5.437534] (thruster) StdoutLine: {'line': b'running install_lib\n'}
+[5.438232] (sensors) StdoutLine: {'line': b'running install_lib\n'}
+[5.450684] (imu) StdoutLine: {'line': b'running install_lib\n'}
+[5.460682] (sensors) StdoutLine: {'line': b'copying /home/project/ASV/ASV_new/build/sensors/build/lib/sensors/battery_pub.py -> /home/project/ASV/ASV_new/install/sensors/lib/python3.12/site-packages/sensors\n'}
+[5.461768] (sensors) StdoutLine: {'line': b'byte-compiling /home/project/ASV/ASV_new/install/sensors/lib/python3.12/site-packages/sensors/battery_pub.py to battery_pub.cpython-312.pyc\n'}
+[5.463890] (gps) StdoutLine: {'line': b'running install_data\n'}
+[5.464142] (gps) StdoutLine: {'line': b'copying resource/gps -> /home/project/ASV/ASV_new/install/gps/share/ament_index/resource_index/packages\n'}
+[5.466257] (gps) StdoutLine: {'line': b'copying package.xml -> /home/project/ASV/ASV_new/install/gps/share/gps\n'}
+[5.466635] (thruster) StdoutLine: {'line': b'running install_data\n'}
+[5.467552] (thruster) StdoutLine: {'line': b'copying resource/thruster -> /home/project/ASV/ASV_new/install/thruster/share/ament_index/resource_index/packages\n'}
+[5.467754] (gps) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.467928] (thruster) StdoutLine: {'line': b'copying package.xml -> /home/project/ASV/ASV_new/install/thruster/share/thruster\n'}
+[5.468038] (thruster) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.481683] (-) TimerEvent: {}
+[5.491807] (imu) StdoutLine: {'line': b'running install_data\n'}
+[5.494645] (imu) StdoutLine: {'line': b'copying resource/imu -> /home/project/ASV/ASV_new/install/imu/share/ament_index/resource_index/packages\n'}
+[5.496369] (imu) StdoutLine: {'line': b'copying package.xml -> /home/project/ASV/ASV_new/install/imu/share/imu\n'}
+[5.496875] (imu) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.522864] (gps) StdoutLine: {'line': b"removing '/home/project/ASV/ASV_new/install/gps/lib/python3.12/site-packages/gps-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[5.523751] (gps) StdoutLine: {'line': b'Copying ../../build/gps/gps.egg-info to /home/project/ASV/ASV_new/install/gps/lib/python3.12/site-packages/gps-0.0.0-py3.12.egg-info\n'}
+[5.531064] (sensors) StdoutLine: {'line': b'running install_data\n'}
+[5.531337] (thruster) StdoutLine: {'line': b"removing '/home/project/ASV/ASV_new/install/thruster/lib/python3.12/site-packages/thruster-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[5.534695] (thruster) StdoutLine: {'line': b'Copying ../../build/thruster/thruster.egg-info to /home/project/ASV/ASV_new/install/thruster/lib/python3.12/site-packages/thruster-0.0.0-py3.12.egg-info\n'}
+[5.534959] (sensors) StdoutLine: {'line': b'copying resource/sensors -> /home/project/ASV/ASV_new/install/sensors/share/ament_index/resource_index/packages\n'}
+[5.535074] (sensors) StdoutLine: {'line': b'copying package.xml -> /home/project/ASV/ASV_new/install/sensors/share/sensors\n'}
+[5.535226] (sensors) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.540731] (imu) StdoutLine: {'line': b"removing '/home/project/ASV/ASV_new/install/imu/lib/python3.12/site-packages/imu-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[5.541370] (imu) StdoutLine: {'line': b'Copying ../../build/imu/imu.egg-info to /home/project/ASV/ASV_new/install/imu/lib/python3.12/site-packages/imu-0.0.0-py3.12.egg-info\n'}
+[5.561861] (sensors) StdoutLine: {'line': b"removing '/home/project/ASV/ASV_new/install/sensors/lib/python3.12/site-packages/sensors-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[5.562306] (sensors) StdoutLine: {'line': b'Copying ../../build/sensors/sensors.egg-info to /home/project/ASV/ASV_new/install/sensors/lib/python3.12/site-packages/sensors-0.0.0-py3.12.egg-info\n'}
+[5.581763] (-) TimerEvent: {}
+[5.682227] (-) TimerEvent: {}
+[5.783084] (-) TimerEvent: {}
+[5.883578] (-) TimerEvent: {}
+[5.897749] (sensors) StdoutLine: {'line': b'running install_scripts\n'}
+[5.898013] (gps) StdoutLine: {'line': b'running install_scripts\n'}
+[5.898135] (thruster) StdoutLine: {'line': b'running install_scripts\n'}
+[5.912609] (imu) StdoutLine: {'line': b'running install_scripts\n'}
+[5.953860] (thruster) StdoutLine: {'line': b'Installing thruster_sub script to /home/project/ASV/ASV_new/install/thruster/lib/thruster\n'}
+[5.955679] (sensors) StdoutLine: {'line': b'Installing batt_pub script to /home/project/ASV/ASV_new/install/sensors/lib/sensors\n'}
+[5.969742] (gps) StdoutLine: {'line': b'Installing gps_publisher script to /home/project/ASV/ASV_new/install/gps/lib/gps\n'}
+[5.972955] (imu) StdoutLine: {'line': b'Installing imu_logger script to /home/project/ASV/ASV_new/install/imu/lib/imu\n'}
+[5.983655] (-) TimerEvent: {}
+[6.084371] (-) TimerEvent: {}
+[6.185072] (-) TimerEvent: {}
+[6.287685] (-) TimerEvent: {}
+[6.289025] (thruster) StdoutLine: {'line': b'Installing thruster_teleop script to /home/project/ASV/ASV_new/install/thruster/lib/thruster\n'}
+[6.293836] (sensors) StdoutLine: {'line': b"writing list of installed files to '/home/project/ASV/ASV_new/build/sensors/install.log'\n"}
+[6.294198] (imu) StdoutLine: {'line': b'Installing imu_publisher script to /home/project/ASV/ASV_new/install/imu/lib/imu\n'}
+[6.294410] (imu) StdoutLine: {'line': b"writing list of installed files to '/home/project/ASV/ASV_new/build/imu/install.log'\n"}
+[6.294595] (gps) StdoutLine: {'line': b"writing list of installed files to '/home/project/ASV/ASV_new/build/gps/install.log'\n"}
+[6.317701] (thruster) StdoutLine: {'line': b"writing list of installed files to '/home/project/ASV/ASV_new/build/thruster/install.log'\n"}
+[6.387838] (-) TimerEvent: {}
+[6.460061] (imu) CommandEnded: {'returncode': 0}
+[6.488213] (-) TimerEvent: {}
+[6.589374] (-) TimerEvent: {}
+[6.690120] (-) TimerEvent: {}
+[6.791584] (-) TimerEvent: {}
+[6.892208] (-) TimerEvent: {}
+[6.993790] (-) TimerEvent: {}
+[7.096183] (-) TimerEvent: {}
+[7.197424] (-) TimerEvent: {}
+[7.298169] (-) TimerEvent: {}
+[7.399682] (-) TimerEvent: {}
+[7.500344] (-) TimerEvent: {}
+[7.603454] (-) TimerEvent: {}
+[7.704079] (-) TimerEvent: {}
+[7.767351] (imu) JobEnded: {'identifier': 'imu', 'rc': 0}
+[7.771394] (sensors) CommandEnded: {'returncode': 0}
+[7.804161] (-) TimerEvent: {}
+[7.848683] (sensors) JobEnded: {'identifier': 'sensors', 'rc': 0}
+[7.855198] (thruster) CommandEnded: {'returncode': 0}
+[7.870672] (thruster) JobEnded: {'identifier': 'thruster', 'rc': 0}
+[7.871862] (gps) CommandEnded: {'returncode': 0}
+[7.891760] (gps) JobEnded: {'identifier': 'gps', 'rc': 0}
+[7.898169] (-) EventReactorShutdown: {}

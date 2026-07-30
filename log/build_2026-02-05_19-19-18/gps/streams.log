@@ -1,0 +1,29 @@
+[2.109s] Invoking command in '/home/project/ASV/ASV_new/src/gps': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(vir_env_main) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/project/ASV/ASV_new/build/gps/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/gps/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vir_env_main) /home/project/ASV/vir_env_main/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gps build --build-base /home/project/ASV/ASV_new/build/gps/build install --record /home/project/ASV/ASV_new/build/gps/install.log --single-version-externally-managed install_data
+[2.551s] /home/project/ASV/vir_env_main/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.552s]   warnings.warn(msg)
+[2.709s] running egg_info
+[2.731s] writing ../../build/gps/gps.egg-info/PKG-INFO
+[2.732s] writing dependency_links to ../../build/gps/gps.egg-info/dependency_links.txt
+[2.734s] writing entry points to ../../build/gps/gps.egg-info/entry_points.txt
+[2.734s] writing requirements to ../../build/gps/gps.egg-info/requires.txt
+[2.735s] writing top-level names to ../../build/gps/gps.egg-info/top_level.txt
+[2.786s] reading manifest file '../../build/gps/gps.egg-info/SOURCES.txt'
+[2.788s] writing manifest file '../../build/gps/gps.egg-info/SOURCES.txt'
+[2.788s] running build
+[2.788s] running build_py
+[2.788s] copying gps/gps_publisher.py -> /home/project/ASV/ASV_new/build/gps/build/lib/gps
+[2.789s] copying gps/__init__.py -> /home/project/ASV/ASV_new/build/gps/build/lib/gps
+[2.794s] running install
+[2.802s] running install_lib
+[2.820s] copying /home/project/ASV/ASV_new/build/gps/build/lib/gps/gps_publisher.py -> /home/project/ASV/ASV_new/install/gps/lib/python3.12/site-packages/gps
+[2.821s] byte-compiling /home/project/ASV/ASV_new/install/gps/lib/python3.12/site-packages/gps/gps_publisher.py to gps_publisher.cpython-312.pyc
+[2.823s] running install_data
+[2.823s] copying resource/gps -> /home/project/ASV/ASV_new/install/gps/share/ament_index/resource_index/packages
+[2.823s] copying package.xml -> /home/project/ASV/ASV_new/install/gps/share/gps
+[2.823s] running install_egg_info
+[2.849s] removing '/home/project/ASV/ASV_new/install/gps/lib/python3.12/site-packages/gps-0.0.0-py3.12.egg-info' (and everything under it)
+[2.850s] Copying ../../build/gps/gps.egg-info to /home/project/ASV/ASV_new/install/gps/lib/python3.12/site-packages/gps-0.0.0-py3.12.egg-info
+[2.851s] running install_scripts
+[2.898s] Installing gps_publisher script to /home/project/ASV/ASV_new/install/gps/lib/gps
+[2.899s] writing list of installed files to '/home/project/ASV/ASV_new/build/gps/install.log'
+[2.995s] Invoked command in '/home/project/ASV/ASV_new/src/gps' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(vir_env_main) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/project/ASV/ASV_new/build/gps/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/gps/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vir_env_main) /home/project/ASV/vir_env_main/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gps build --build-base /home/project/ASV/ASV_new/build/gps/build install --record /home/project/ASV/ASV_new/build/gps/install.log --single-version-externally-managed install_data
