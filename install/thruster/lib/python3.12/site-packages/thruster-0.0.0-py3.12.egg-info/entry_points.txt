@@ -1,3 +1,0 @@
-[console_scripts]
-thruster_sub = thruster.thrust_subscriber:main
-thruster_teleop = thruster.thrust_teleop_publisher:main

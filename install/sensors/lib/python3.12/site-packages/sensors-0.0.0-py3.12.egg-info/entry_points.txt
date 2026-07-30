@@ -1,2 +1,0 @@
-[console_scripts]
-batt_pub = sensors.battery_pub:main

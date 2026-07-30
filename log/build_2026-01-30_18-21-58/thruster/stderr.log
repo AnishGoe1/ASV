@@ -1,7 +1,0 @@
-/home/project/ASV/vir_env_main/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
-  warnings.warn(msg)
-  File "/home/project/ASV/ASV_new/install/thruster/lib/python3.12/site-packages/thruster/thrust_teleop_publisher.py", line 98
-    """w
-       ^
-SyntaxError: invalid syntax
-

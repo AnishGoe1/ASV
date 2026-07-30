@@ -1,0 +1,77 @@
+[0.000000] (-) TimerEvent: {}
+[0.000429] (-) JobUnselected: {'identifier': 'controller'}
+[0.001195] (-) JobUnselected: {'identifier': 'gps'}
+[0.001236] (-) JobUnselected: {'identifier': 'imu'}
+[0.001262] (-) JobUnselected: {'identifier': 'sensors'}
+[0.001284] (-) JobUnselected: {'identifier': 'thruster'}
+[0.001324] (depth_camera) JobQueued: {'identifier': 'depth_camera', 'dependencies': OrderedDict()}
+[0.001402] (depth_camera) JobStarted: {'identifier': 'depth_camera'}
+[0.100244] (-) TimerEvent: {}
+[0.201369] (-) TimerEvent: {}
+[0.301711] (-) TimerEvent: {}
+[0.407370] (-) TimerEvent: {}
+[0.507694] (-) TimerEvent: {}
+[0.608052] (-) TimerEvent: {}
+[0.708433] (-) TimerEvent: {}
+[0.808834] (-) TimerEvent: {}
+[0.910371] (-) TimerEvent: {}
+[1.010747] (-) TimerEvent: {}
+[1.112477] (-) TimerEvent: {}
+[1.215009] (-) TimerEvent: {}
+[1.316396] (-) TimerEvent: {}
+[1.419439] (-) TimerEvent: {}
+[1.519956] (-) TimerEvent: {}
+[1.620356] (-) TimerEvent: {}
+[1.720696] (-) TimerEvent: {}
+[1.822398] (-) TimerEvent: {}
+[1.922888] (-) TimerEvent: {}
+[2.006001] (depth_camera) Command: {'cmd': ['/home/project/ASV/vir_env_main/bin/python3.12', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/depth_camera', 'build', '--build-base', '/home/project/ASV/ASV_new/build/depth_camera/build', 'install', '--record', '/home/project/ASV/ASV_new/build/depth_camera/install.log', '--install-scripts', '$base/lib/depth_camera', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/project/ASV/ASV_new/src/depth_camera', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'project', 'SSH_AGENT_PID': '2414', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/project', 'OLDPWD': '/home/project', 'DESKTOP_SESSION': 'xfce', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '(vir_env_main) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'COLCON_PREFIX_PATH': '/home/project/ASV/ASV_new/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'project', '_': '/home/project/ASV/vir_env_main/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'PATH': '/home/project/ASV/vir_env_main/bin:/home/project/ASV/vir_env_main/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/project:@/tmp/.ICE-unix/2436,unix/project:/tmp/.ICE-unix/2436', 'XDG_MENU_PREFIX': 'xfce-', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a466e196_5fe4_4395_afe3_c73bfff11287', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':10.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'VIRTUAL_ENV_PROMPT': '(vir_env_main)', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.152', 'SSH_AUTH_SOCK': '/tmp/ssh-sMIa2XBvtyOv/agent.2255', 'AMENT_PREFIX_PATH': '/home/project/ASV/ASV_new/install/thruster:/home/project/ASV/ASV_new/install/sensors:/home/project/ASV/ASV_new/install/imu:/home/project/ASV/ASV_new/install/gps:/home/project/ASV/ASV_new/install/depth_camera:/home/project/ASV/ASV_new/install/controller:/opt/ros/jazzy', 'UID': '1002', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'VIRTUAL_ENV': '/home/project/ASV/vir_env_main', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/project/ASV/ASV_new/build/depth_camera', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/project/ASV/ASV_new/build/depth_camera/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/depth_camera/lib/python3.12/site-packages:/home/project/ASV/ASV_new/install/thruster/lib/python3.12/site-packages:/home/project/ASV/ASV_new/install/sensors/lib/python3.12/site-packages:/home/project/ASV/ASV_new/install/imu/lib/python3.12/site-packages:/home/project/ASV/ASV_new/install/gps/lib/python3.12/site-packages:/home/project/ASV/ASV_new/install/depth_camera/lib/python3.12/site-packages:/home/project/ASV/ASV_new/install/controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.022993] (-) TimerEvent: {}
+[2.123345] (-) TimerEvent: {}
+[2.225885] (-) TimerEvent: {}
+[2.328389] (-) TimerEvent: {}
+[2.428764] (-) TimerEvent: {}
+[2.529094] (-) TimerEvent: {}
+[2.629435] (-) TimerEvent: {}
+[2.730415] (-) TimerEvent: {}
+[2.790379] (depth_camera) StdoutLine: {'line': b'running egg_info\n'}
+[2.830518] (-) TimerEvent: {}
+[2.851343] (depth_camera) StdoutLine: {'line': b'creating ../../build/depth_camera/depth_camera.egg-info\n'}
+[2.851813] (depth_camera) StdoutLine: {'line': b'writing ../../build/depth_camera/depth_camera.egg-info/PKG-INFO\n'}
+[2.852759] (depth_camera) StdoutLine: {'line': b'writing dependency_links to ../../build/depth_camera/depth_camera.egg-info/dependency_links.txt\n'}
+[2.853028] (depth_camera) StdoutLine: {'line': b'writing entry points to ../../build/depth_camera/depth_camera.egg-info/entry_points.txt\n'}
+[2.853385] (depth_camera) StdoutLine: {'line': b'writing requirements to ../../build/depth_camera/depth_camera.egg-info/requires.txt\n'}
+[2.853665] (depth_camera) StdoutLine: {'line': b'writing top-level names to ../../build/depth_camera/depth_camera.egg-info/top_level.txt\n'}
+[2.853910] (depth_camera) StdoutLine: {'line': b"writing manifest file '../../build/depth_camera/depth_camera.egg-info/SOURCES.txt'\n"}
+[2.932206] (-) TimerEvent: {}
+[2.972425] (depth_camera) StdoutLine: {'line': b"reading manifest file '../../build/depth_camera/depth_camera.egg-info/SOURCES.txt'\n"}
+[2.972672] (depth_camera) StdoutLine: {'line': b"writing manifest file '../../build/depth_camera/depth_camera.egg-info/SOURCES.txt'\n"}
+[2.972822] (depth_camera) StdoutLine: {'line': b'running build\n'}
+[2.972984] (depth_camera) StdoutLine: {'line': b'running build_py\n'}
+[2.973086] (depth_camera) StdoutLine: {'line': b'creating /home/project/ASV/ASV_new/build/depth_camera/build/lib/depth_camera\n'}
+[2.973275] (depth_camera) StdoutLine: {'line': b'copying depth_camera/__init__.py -> /home/project/ASV/ASV_new/build/depth_camera/build/lib/depth_camera\n'}
+[2.973484] (depth_camera) StdoutLine: {'line': b'copying depth_camera/camera.py -> /home/project/ASV/ASV_new/build/depth_camera/build/lib/depth_camera\n'}
+[2.974040] (depth_camera) StdoutLine: {'line': b'running install\n'}
+[2.984287] (depth_camera) StdoutLine: {'line': b'running install_lib\n'}
+[3.034430] (-) TimerEvent: {}
+[3.038413] (depth_camera) StdoutLine: {'line': b'creating /home/project/ASV/ASV_new/install/depth_camera/lib/python3.12/site-packages/depth_camera\n'}
+[3.038719] (depth_camera) StdoutLine: {'line': b'copying /home/project/ASV/ASV_new/build/depth_camera/build/lib/depth_camera/__init__.py -> /home/project/ASV/ASV_new/install/depth_camera/lib/python3.12/site-packages/depth_camera\n'}
+[3.038827] (depth_camera) StdoutLine: {'line': b'copying /home/project/ASV/ASV_new/build/depth_camera/build/lib/depth_camera/camera.py -> /home/project/ASV/ASV_new/install/depth_camera/lib/python3.12/site-packages/depth_camera\n'}
+[3.039694] (depth_camera) StdoutLine: {'line': b'byte-compiling /home/project/ASV/ASV_new/install/depth_camera/lib/python3.12/site-packages/depth_camera/__init__.py to __init__.cpython-312.pyc\n'}
+[3.040076] (depth_camera) StdoutLine: {'line': b'byte-compiling /home/project/ASV/ASV_new/install/depth_camera/lib/python3.12/site-packages/depth_camera/camera.py to camera.cpython-312.pyc\n'}
+[3.045179] (depth_camera) StdoutLine: {'line': b'running install_data\n'}
+[3.046402] (depth_camera) StdoutLine: {'line': b'creating /home/project/ASV/ASV_new/install/depth_camera/share/ament_index/resource_index/packages\n'}
+[3.046666] (depth_camera) StdoutLine: {'line': b'copying resource/depth_camera -> /home/project/ASV/ASV_new/install/depth_camera/share/ament_index/resource_index/packages\n'}
+[3.046775] (depth_camera) StdoutLine: {'line': b'copying package.xml -> /home/project/ASV/ASV_new/install/depth_camera/share/depth_camera\n'}
+[3.046858] (depth_camera) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.105425] (depth_camera) StdoutLine: {'line': b'Copying ../../build/depth_camera/depth_camera.egg-info to /home/project/ASV/ASV_new/install/depth_camera/lib/python3.12/site-packages/depth_camera-0.0.0-py3.12.egg-info\n'}
+[3.106446] (depth_camera) StdoutLine: {'line': b'running install_scripts\n'}
+[3.134525] (-) TimerEvent: {}
+[3.236373] (-) TimerEvent: {}
+[3.336745] (-) TimerEvent: {}
+[3.385694] (depth_camera) StdoutLine: {'line': b'Installing camera script to /home/project/ASV/ASV_new/install/depth_camera/lib/depth_camera\n'}
+[3.386234] (depth_camera) StdoutLine: {'line': b"writing list of installed files to '/home/project/ASV/ASV_new/build/depth_camera/install.log'\n"}
+[3.436851] (-) TimerEvent: {}
+[3.468769] (depth_camera) CommandEnded: {'returncode': 0}
+[3.485800] (depth_camera) JobEnded: {'identifier': 'depth_camera', 'rc': 0}
+[3.486864] (-) EventReactorShutdown: {}

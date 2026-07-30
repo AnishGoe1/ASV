@@ -1,3 +1,0 @@
-[console_scripts]
-imu_logger = imu.imu_logger:main
-imu_publisher = imu.imu_publisher:main
