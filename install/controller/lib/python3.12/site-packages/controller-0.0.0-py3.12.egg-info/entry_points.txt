@@ -1,0 +1,2 @@
+[console_scripts]
+pid_controller = controller.pid_controller:main

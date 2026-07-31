@@ -1,0 +1,383 @@
+[0.225s] DEBUG:colcon:Command line arguments: ['/home/project/ASV/vir_env_main/bin/colcon', 'build']
+[0.226s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffaa89cf20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffaa89c830>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffaa89c830>>, mixin_verb=('build',))
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.282s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/project/ASV/ASV_new'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'ros'
+[0.331s] DEBUG:colcon.colcon_core.package_identification:Package 'src/controller' with type 'ros.ament_python' and name 'controller'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_camera) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_camera) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_camera) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_camera) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_camera) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_camera) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_camera) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_camera) by extension 'ros'
+[0.332s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depth_camera' with type 'ros.ament_python' and name 'depth_camera'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps) by extension 'ros'
+[0.333s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gps' with type 'ros.ament_python' and name 'gps'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extension 'ros'
+[0.335s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu' with type 'ros.ament_python' and name 'imu'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'ros'
+[0.336s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensors' with type 'ros.ament_python' and name 'sensors'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/thruster) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/thruster) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/thruster) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/thruster) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/thruster) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/thruster) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/thruster) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/thruster) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/thruster) by extension 'ros'
+[0.337s] DEBUG:colcon.colcon_core.package_identification:Package 'src/thruster' with type 'ros.ament_python' and name 'thruster'
+[0.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.369s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/project/ASV/ASV_new/install
+[0.371s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 288 installed packages in /opt/ros/jazzy
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_target' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.531s] DEBUG:colcon.colcon_core.verb:Building package 'controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/project/ASV/ASV_new/build/controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/project/ASV/ASV_new/install/controller', 'merge_install': False, 'path': '/home/project/ASV/ASV_new/src/controller', 'symlink_install': False, 'test_result_base': None}
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'depth_camera' build argument 'cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'depth_camera' build argument 'cmake_target' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'depth_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'depth_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'depth_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'depth_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'depth_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'depth_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'depth_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.532s] DEBUG:colcon.colcon_core.verb:Building package 'depth_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/project/ASV/ASV_new/build/depth_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/project/ASV/ASV_new/install/depth_camera', 'merge_install': False, 'path': '/home/project/ASV/ASV_new/src/depth_camera', 'symlink_install': False, 'test_result_base': None}
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'gps' build argument 'cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'gps' build argument 'cmake_target' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'gps' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'gps' build argument 'cmake_clean_cache' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'gps' build argument 'cmake_clean_first' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'gps' build argument 'cmake_force_configure' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'gps' build argument 'ament_cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'gps' build argument 'catkin_cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'gps' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.532s] DEBUG:colcon.colcon_core.verb:Building package 'gps' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/project/ASV/ASV_new/build/gps', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/project/ASV/ASV_new/install/gps', 'merge_install': False, 'path': '/home/project/ASV/ASV_new/src/gps', 'symlink_install': False, 'test_result_base': None}
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'imu' build argument 'cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'imu' build argument 'cmake_target' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'imu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'imu' build argument 'cmake_clean_cache' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'imu' build argument 'cmake_clean_first' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'imu' build argument 'cmake_force_configure' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'imu' build argument 'ament_cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'imu' build argument 'catkin_cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'imu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.533s] DEBUG:colcon.colcon_core.verb:Building package 'imu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/project/ASV/ASV_new/build/imu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/project/ASV/ASV_new/install/imu', 'merge_install': False, 'path': '/home/project/ASV/ASV_new/src/imu', 'symlink_install': False, 'test_result_base': None}
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_target' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_clean_cache' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_clean_first' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_force_configure' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'ament_cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'catkin_cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.533s] DEBUG:colcon.colcon_core.verb:Building package 'sensors' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/project/ASV/ASV_new/build/sensors', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/project/ASV/ASV_new/install/sensors', 'merge_install': False, 'path': '/home/project/ASV/ASV_new/src/sensors', 'symlink_install': False, 'test_result_base': None}
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'thruster' build argument 'cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'thruster' build argument 'cmake_target' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'thruster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'thruster' build argument 'cmake_clean_cache' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'thruster' build argument 'cmake_clean_first' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'thruster' build argument 'cmake_force_configure' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'thruster' build argument 'ament_cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'thruster' build argument 'catkin_cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'thruster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.534s] DEBUG:colcon.colcon_core.verb:Building package 'thruster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/project/ASV/ASV_new/build/thruster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/project/ASV/ASV_new/install/thruster', 'merge_install': False, 'path': '/home/project/ASV/ASV_new/src/thruster', 'symlink_install': False, 'test_result_base': None}
+[0.534s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.535s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.535s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/project/ASV/ASV_new/src/controller' with build type 'ament_python'
+[0.536s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller', 'ament_prefix_path')
+[0.544s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/project/ASV/ASV_new/install/controller/share/controller/hook/ament_prefix_path.ps1'
+[0.546s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/project/ASV/ASV_new/install/controller/share/controller/hook/ament_prefix_path.dsv'
+[0.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/project/ASV/ASV_new/install/controller/share/controller/hook/ament_prefix_path.sh'
+[0.549s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.549s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.555s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/project/ASV/ASV_new/src/depth_camera' with build type 'ament_python'
+[0.556s] Level 1:colcon.colcon_core.shell:create_environment_hook('depth_camera', 'ament_prefix_path')
+[0.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/project/ASV/ASV_new/install/depth_camera/share/depth_camera/hook/ament_prefix_path.ps1'
+[0.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/project/ASV/ASV_new/install/depth_camera/share/depth_camera/hook/ament_prefix_path.dsv'
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/project/ASV/ASV_new/install/depth_camera/share/depth_camera/hook/ament_prefix_path.sh'
+[0.561s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.561s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.566s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/project/ASV/ASV_new/src/gps' with build type 'ament_python'
+[0.566s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps', 'ament_prefix_path')
+[0.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/project/ASV/ASV_new/install/gps/share/gps/hook/ament_prefix_path.ps1'
+[0.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/project/ASV/ASV_new/install/gps/share/gps/hook/ament_prefix_path.dsv'
+[0.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/project/ASV/ASV_new/install/gps/share/gps/hook/ament_prefix_path.sh'
+[0.575s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.575s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.584s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/project/ASV/ASV_new/src/imu' with build type 'ament_python'
+[0.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu', 'ament_prefix_path')
+[0.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/project/ASV/ASV_new/install/imu/share/imu/hook/ament_prefix_path.ps1'
+[0.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/project/ASV/ASV_new/install/imu/share/imu/hook/ament_prefix_path.dsv'
+[0.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/project/ASV/ASV_new/install/imu/share/imu/hook/ament_prefix_path.sh'
+[0.590s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.590s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.046s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/project/ASV/ASV_new/src/controller'
+[1.047s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.047s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.452s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/project/ASV/ASV_new/src/depth_camera'
+[1.453s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.453s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.882s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/project/ASV/ASV_new/src/gps'
+[1.882s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.882s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.311s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/project/ASV/ASV_new/src/imu'
+[2.311s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.312s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.198s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: build_py, bdist, update_catalog, install_egg_info, build_scripts, build, build_clib, extract_messages, easy_install, dist_info, bdist_wheel, install_scripts, compile_catalog, install_headers, isort, check, sdist, rotate, alias, clean, install_data, egg_info, build_ext, bdist_rpm, init_catalog, develop, editable_wheel, saveopts, install, bdist_dumb, bdist_egg, symlink_data, setopt, install_lib
+[4.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/project/ASV/ASV_new/src/gps': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(vir_env_main) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/project/ASV/ASV_new/build/gps/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/gps/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vir_env_main) /home/project/ASV/vir_env_main/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gps build --build-base /home/project/ASV/ASV_new/build/gps/build install --record /home/project/ASV/ASV_new/build/gps/install.log --install-scripts $base/lib/gps --single-version-externally-managed install_data
+[4.220s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: build_py, bdist, update_catalog, install_egg_info, build_scripts, build, build_clib, extract_messages, easy_install, dist_info, bdist_wheel, install_scripts, compile_catalog, install_headers, isort, check, sdist, rotate, alias, clean, install_data, egg_info, build_ext, bdist_rpm, init_catalog, develop, editable_wheel, saveopts, install, bdist_dumb, bdist_egg, symlink_data, setopt, install_lib
+[4.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/project/ASV/ASV_new/src/imu': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(vir_env_main) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/project/ASV/ASV_new/build/imu/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/imu/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vir_env_main) /home/project/ASV/vir_env_main/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu build --build-base /home/project/ASV/ASV_new/build/imu/build install --record /home/project/ASV/ASV_new/build/imu/install.log --install-scripts $base/lib/imu --single-version-externally-managed install_data
+[4.252s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: build_py, bdist, update_catalog, install_egg_info, build_scripts, build, build_clib, extract_messages, easy_install, dist_info, bdist_wheel, install_scripts, compile_catalog, install_headers, isort, check, sdist, rotate, alias, clean, install_data, egg_info, build_ext, bdist_rpm, init_catalog, develop, editable_wheel, saveopts, install, bdist_dumb, bdist_egg, symlink_data, setopt, install_lib
+[4.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/project/ASV/ASV_new/src/controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(vir_env_main) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/project/ASV/ASV_new/build/controller/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/controller/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vir_env_main) /home/project/ASV/vir_env_main/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controller build --build-base /home/project/ASV/ASV_new/build/controller/build install --record /home/project/ASV/ASV_new/build/controller/install.log --install-scripts $base/lib/controller --single-version-externally-managed install_data
+[4.280s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: build_py, bdist, update_catalog, install_egg_info, build_scripts, build, build_clib, extract_messages, easy_install, dist_info, bdist_wheel, install_scripts, compile_catalog, install_headers, isort, check, sdist, rotate, alias, clean, install_data, egg_info, build_ext, bdist_rpm, init_catalog, develop, editable_wheel, saveopts, install, bdist_dumb, bdist_egg, symlink_data, setopt, install_lib
+[4.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/project/ASV/ASV_new/src/depth_camera': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(vir_env_main) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/project/ASV/ASV_new/build/depth_camera/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/depth_camera/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vir_env_main) /home/project/ASV/vir_env_main/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/depth_camera build --build-base /home/project/ASV/ASV_new/build/depth_camera/build install --record /home/project/ASV/ASV_new/build/depth_camera/install.log --install-scripts $base/lib/depth_camera --single-version-externally-managed install_data
+[5.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/project/ASV/ASV_new/src/controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(vir_env_main) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/project/ASV/ASV_new/build/controller/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/controller/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vir_env_main) /home/project/ASV/vir_env_main/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controller build --build-base /home/project/ASV/ASV_new/build/controller/build install --record /home/project/ASV/ASV_new/build/controller/install.log --install-scripts $base/lib/controller --single-version-externally-managed install_data
+[5.577s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/controller' for CMake module files
+[5.579s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/controller' for CMake config files
+[5.581s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/controller/lib'
+[5.582s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/controller/bin'
+[5.583s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/controller/lib/pkgconfig/controller.pc'
+[5.584s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/controller/lib/python3.12/site-packages'
+[5.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller', 'pythonpath')
+[5.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/project/ASV/ASV_new/install/controller/share/controller/hook/pythonpath.ps1'
+[5.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/project/ASV/ASV_new/install/controller/share/controller/hook/pythonpath.dsv'
+[5.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/project/ASV/ASV_new/install/controller/share/controller/hook/pythonpath.sh'
+[5.592s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/controller/bin'
+[5.593s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controller)
+[5.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/project/ASV/ASV_new/install/controller/share/controller/package.ps1'
+[5.599s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/project/ASV/ASV_new/install/controller/share/controller/package.dsv'
+[5.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/project/ASV/ASV_new/install/controller/share/controller/package.sh'
+[5.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/project/ASV/ASV_new/install/controller/share/controller/package.bash'
+[5.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/project/ASV/ASV_new/install/controller/share/controller/package.zsh'
+[5.612s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/project/ASV/ASV_new/install/controller/share/colcon-core/packages/controller)
+[5.614s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/project/ASV/ASV_new/src/sensors' with build type 'ament_python'
+[5.614s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensors', 'ament_prefix_path')
+[5.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/project/ASV/ASV_new/install/sensors/share/sensors/hook/ament_prefix_path.ps1'
+[5.619s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/project/ASV/ASV_new/install/sensors/share/sensors/hook/ament_prefix_path.dsv'
+[5.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/project/ASV/ASV_new/install/sensors/share/sensors/hook/ament_prefix_path.sh'
+[5.626s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.626s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.366s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/project/ASV/ASV_new/src/sensors'
+[6.367s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.367s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.379s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/gps' for CMake module files
+[6.382s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/gps' for CMake config files
+[6.383s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/gps/lib'
+[6.383s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/gps/bin'
+[6.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/project/ASV/ASV_new/src/gps' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(vir_env_main) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/project/ASV/ASV_new/build/gps/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/gps/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vir_env_main) /home/project/ASV/vir_env_main/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gps build --build-base /home/project/ASV/ASV_new/build/gps/build install --record /home/project/ASV/ASV_new/build/gps/install.log --install-scripts $base/lib/gps --single-version-externally-managed install_data
+[6.383s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/gps/lib/pkgconfig/gps.pc'
+[6.384s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/gps/lib/python3.12/site-packages'
+[6.384s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps', 'pythonpath')
+[6.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/project/ASV/ASV_new/install/gps/share/gps/hook/pythonpath.ps1'
+[6.386s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/project/ASV/ASV_new/install/gps/share/gps/hook/pythonpath.dsv'
+[6.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/project/ASV/ASV_new/install/gps/share/gps/hook/pythonpath.sh'
+[6.389s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/gps/bin'
+[6.389s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gps)
+[6.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/project/ASV/ASV_new/install/gps/share/gps/package.ps1'
+[6.392s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/project/ASV/ASV_new/install/gps/share/gps/package.dsv'
+[6.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/project/ASV/ASV_new/install/gps/share/gps/package.sh'
+[6.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/project/ASV/ASV_new/install/gps/share/gps/package.bash'
+[6.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/project/ASV/ASV_new/install/gps/share/gps/package.zsh'
+[6.398s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/project/ASV/ASV_new/install/gps/share/colcon-core/packages/gps)
+[6.400s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/imu' for CMake module files
+[6.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/project/ASV/ASV_new/src/imu' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(vir_env_main) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/project/ASV/ASV_new/build/imu/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/imu/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vir_env_main) /home/project/ASV/vir_env_main/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu build --build-base /home/project/ASV/ASV_new/build/imu/build install --record /home/project/ASV/ASV_new/build/imu/install.log --install-scripts $base/lib/imu --single-version-externally-managed install_data
+[6.404s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/imu' for CMake config files
+[6.408s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/imu/lib'
+[6.409s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/imu/bin'
+[6.410s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/imu/lib/pkgconfig/imu.pc'
+[6.411s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/imu/lib/python3.12/site-packages'
+[6.412s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu', 'pythonpath')
+[6.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/project/ASV/ASV_new/install/imu/share/imu/hook/pythonpath.ps1'
+[6.416s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/project/ASV/ASV_new/install/imu/share/imu/hook/pythonpath.dsv'
+[6.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/project/ASV/ASV_new/install/imu/share/imu/hook/pythonpath.sh'
+[6.419s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/imu/bin'
+[6.419s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu)
+[6.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/project/ASV/ASV_new/install/imu/share/imu/package.ps1'
+[6.421s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/project/ASV/ASV_new/install/imu/share/imu/package.dsv'
+[6.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/project/ASV/ASV_new/install/imu/share/imu/package.sh'
+[6.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/project/ASV/ASV_new/install/imu/share/imu/package.bash'
+[6.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/project/ASV/ASV_new/install/imu/share/imu/package.zsh'
+[6.431s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/project/ASV/ASV_new/install/imu/share/colcon-core/packages/imu)
+[6.434s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/depth_camera' for CMake module files
+[6.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/project/ASV/ASV_new/src/depth_camera' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(vir_env_main) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/project/ASV/ASV_new/build/depth_camera/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/depth_camera/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vir_env_main) /home/project/ASV/vir_env_main/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/depth_camera build --build-base /home/project/ASV/ASV_new/build/depth_camera/build install --record /home/project/ASV/ASV_new/build/depth_camera/install.log --install-scripts $base/lib/depth_camera --single-version-externally-managed install_data
+[6.441s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/depth_camera' for CMake config files
+[6.442s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/depth_camera/lib'
+[6.442s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/depth_camera/bin'
+[6.443s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/depth_camera/lib/pkgconfig/depth_camera.pc'
+[6.443s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/depth_camera/lib/python3.12/site-packages'
+[6.444s] Level 1:colcon.colcon_core.shell:create_environment_hook('depth_camera', 'pythonpath')
+[6.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/project/ASV/ASV_new/install/depth_camera/share/depth_camera/hook/pythonpath.ps1'
+[6.445s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/project/ASV/ASV_new/install/depth_camera/share/depth_camera/hook/pythonpath.dsv'
+[6.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/project/ASV/ASV_new/install/depth_camera/share/depth_camera/hook/pythonpath.sh'
+[6.451s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/depth_camera/bin'
+[6.452s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depth_camera)
+[6.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/project/ASV/ASV_new/install/depth_camera/share/depth_camera/package.ps1'
+[6.455s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/project/ASV/ASV_new/install/depth_camera/share/depth_camera/package.dsv'
+[6.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/project/ASV/ASV_new/install/depth_camera/share/depth_camera/package.sh'
+[6.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/project/ASV/ASV_new/install/depth_camera/share/depth_camera/package.bash'
+[6.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/project/ASV/ASV_new/install/depth_camera/share/depth_camera/package.zsh'
+[6.462s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/project/ASV/ASV_new/install/depth_camera/share/colcon-core/packages/depth_camera)
+[6.468s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/project/ASV/ASV_new/src/thruster' with build type 'ament_python'
+[6.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('thruster', 'ament_prefix_path')
+[6.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/project/ASV/ASV_new/install/thruster/share/thruster/hook/ament_prefix_path.ps1'
+[6.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/project/ASV/ASV_new/install/thruster/share/thruster/hook/ament_prefix_path.dsv'
+[6.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/project/ASV/ASV_new/install/thruster/share/thruster/hook/ament_prefix_path.sh'
+[6.480s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.481s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.316s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/project/ASV/ASV_new/src/thruster'
+[7.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.429s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: build_py, bdist, update_catalog, install_egg_info, build_scripts, build, build_clib, extract_messages, easy_install, dist_info, bdist_wheel, install_scripts, compile_catalog, install_headers, isort, check, sdist, rotate, alias, clean, install_data, egg_info, build_ext, bdist_rpm, init_catalog, develop, editable_wheel, saveopts, install, bdist_dumb, bdist_egg, symlink_data, setopt, install_lib
+[8.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/project/ASV/ASV_new/src/sensors': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(vir_env_main) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/project/ASV/ASV_new/build/sensors/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/sensors/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vir_env_main) /home/project/ASV/vir_env_main/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensors build --build-base /home/project/ASV/ASV_new/build/sensors/build install --record /home/project/ASV/ASV_new/build/sensors/install.log --install-scripts $base/lib/sensors --single-version-externally-managed install_data
+[9.277s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: build_py, bdist, update_catalog, install_egg_info, build_scripts, build, build_clib, extract_messages, easy_install, dist_info, bdist_wheel, install_scripts, compile_catalog, install_headers, isort, check, sdist, rotate, alias, clean, install_data, egg_info, build_ext, bdist_rpm, init_catalog, develop, editable_wheel, saveopts, install, bdist_dumb, bdist_egg, symlink_data, setopt, install_lib
+[9.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/project/ASV/ASV_new/src/thruster': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(vir_env_main) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/project/ASV/ASV_new/build/thruster/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/thruster/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vir_env_main) /home/project/ASV/vir_env_main/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/thruster build --build-base /home/project/ASV/ASV_new/build/thruster/build install --record /home/project/ASV/ASV_new/build/thruster/install.log --install-scripts $base/lib/thruster --single-version-externally-managed install_data
+[9.890s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/sensors' for CMake module files
+[9.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/project/ASV/ASV_new/src/sensors' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(vir_env_main) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/project/ASV/ASV_new/build/sensors/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/sensors/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vir_env_main) /home/project/ASV/vir_env_main/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensors build --build-base /home/project/ASV/ASV_new/build/sensors/build install --record /home/project/ASV/ASV_new/build/sensors/install.log --install-scripts $base/lib/sensors --single-version-externally-managed install_data
+[9.892s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/sensors' for CMake config files
+[9.892s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/sensors/lib'
+[9.893s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/sensors/bin'
+[9.893s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/sensors/lib/pkgconfig/sensors.pc'
+[9.893s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/sensors/lib/python3.12/site-packages'
+[9.893s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensors', 'pythonpath')
+[9.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/project/ASV/ASV_new/install/sensors/share/sensors/hook/pythonpath.ps1'
+[9.894s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/project/ASV/ASV_new/install/sensors/share/sensors/hook/pythonpath.dsv'
+[9.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/project/ASV/ASV_new/install/sensors/share/sensors/hook/pythonpath.sh'
+[9.896s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/sensors/bin'
+[9.896s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensors)
+[9.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/project/ASV/ASV_new/install/sensors/share/sensors/package.ps1'
+[9.898s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/project/ASV/ASV_new/install/sensors/share/sensors/package.dsv'
+[9.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/project/ASV/ASV_new/install/sensors/share/sensors/package.sh'
+[9.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/project/ASV/ASV_new/install/sensors/share/sensors/package.bash'
+[9.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/project/ASV/ASV_new/install/sensors/share/sensors/package.zsh'
+[9.901s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/project/ASV/ASV_new/install/sensors/share/colcon-core/packages/sensors)
+[10.523s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/thruster' for CMake module files
+[10.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/project/ASV/ASV_new/src/thruster' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(vir_env_main) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/project/ASV/ASV_new/build/thruster/prefix_override:/home/project/ASV/vir_env_main/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/project/ASV/ASV_new/install/thruster/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vir_env_main) /home/project/ASV/vir_env_main/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/thruster build --build-base /home/project/ASV/ASV_new/build/thruster/build install --record /home/project/ASV/ASV_new/build/thruster/install.log --install-scripts $base/lib/thruster --single-version-externally-managed install_data
+[10.525s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/thruster' for CMake config files
+[10.525s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/thruster/lib'
+[10.525s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/thruster/bin'
+[10.526s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/thruster/lib/pkgconfig/thruster.pc'
+[10.526s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/thruster/lib/python3.12/site-packages'
+[10.526s] Level 1:colcon.colcon_core.shell:create_environment_hook('thruster', 'pythonpath')
+[10.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/project/ASV/ASV_new/install/thruster/share/thruster/hook/pythonpath.ps1'
+[10.527s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/project/ASV/ASV_new/install/thruster/share/thruster/hook/pythonpath.dsv'
+[10.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/project/ASV/ASV_new/install/thruster/share/thruster/hook/pythonpath.sh'
+[10.529s] Level 1:colcon.colcon_core.environment:checking '/home/project/ASV/ASV_new/install/thruster/bin'
+[10.530s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(thruster)
+[10.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/project/ASV/ASV_new/install/thruster/share/thruster/package.ps1'
+[10.532s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/project/ASV/ASV_new/install/thruster/share/thruster/package.dsv'
+[10.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/project/ASV/ASV_new/install/thruster/share/thruster/package.sh'
+[10.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/project/ASV/ASV_new/install/thruster/share/thruster/package.bash'
+[10.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/project/ASV/ASV_new/install/thruster/share/thruster/package.zsh'
+[10.535s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/project/ASV/ASV_new/install/thruster/share/colcon-core/packages/thruster)
+[10.536s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.537s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.537s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.537s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.553s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.553s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.553s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.713s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.714s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/project/ASV/ASV_new/install/local_setup.ps1'
+[10.718s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/project/ASV/ASV_new/install/_local_setup_util_ps1.py'
+[10.722s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/project/ASV/ASV_new/install/setup.ps1'
+[10.730s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/project/ASV/ASV_new/install/local_setup.sh'
+[10.733s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/project/ASV/ASV_new/install/_local_setup_util_sh.py'
+[10.735s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/project/ASV/ASV_new/install/setup.sh'
+[10.744s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/project/ASV/ASV_new/install/local_setup.bash'
+[10.747s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/project/ASV/ASV_new/install/setup.bash'
+[10.751s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/project/ASV/ASV_new/install/local_setup.zsh'
+[10.754s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/project/ASV/ASV_new/install/setup.zsh'
