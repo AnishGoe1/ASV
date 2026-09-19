@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/home/project/ASV/vir_env_main/bin/python3
 
 import cv2
 import numpy as np
